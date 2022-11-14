@@ -1,6 +1,6 @@
 {
   "name": "laurette_modale",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "laurette_dalmoro",
   "description": "Create a modal",
   "main": "dist/index.js",

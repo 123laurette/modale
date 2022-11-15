@@ -21,14 +21,12 @@ function Button() {
     _useState2 = _slicedToArray(_useState, 2),
     modal = _useState2[0],
     setModal = _useState2[1];
-  var text = "Click on the button to open the modal";
-  console.log(text);
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("button", {
     className: "openModale",
     onClick: function onClick() {
       setModal(true);
     }
-  }, " ", text), modal && /*#__PURE__*/_react.default.createElement(_Modale.default, {
+  }, "Save"), modal && /*#__PURE__*/_react.default.createElement(_Modale.default, {
     closeModale: setModal
   }));
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from "react"
 import Modale from "./Modale"
 
-function Button(textButton) {
+function Button() {
     const [modal, setModal] = useState(false);
     return (
         <>
@@ -10,7 +10,7 @@ function Button(textButton) {
                 onClick= {() => {
                     setModal(true);
                 }}> 
-                {textButton}
+                Save
             </button>
             {modal && <Modale closeModale={setModal} />}
         </>

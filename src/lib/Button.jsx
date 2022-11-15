@@ -2,16 +2,15 @@ import React from 'react';
 import {useState} from "react"
 import Modale from "./Modale"
 
-function Button() {
+function Button(textButton) {
     const [modal, setModal] = useState(false);
-    let text = "Click on the button to open the modal"
-    console.log(text)
     return (
         <>
             <button className="openModale" 
-onClick= {() => {
-            setModal(true);
-            }}> {text}
+                onClick= {() => {
+                    setModal(true);
+                }}> 
+                {textButton}
             </button>
             {modal && <Modale closeModale={setModal} />}
         </>

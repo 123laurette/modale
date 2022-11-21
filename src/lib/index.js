@@ -1,3 +1,3 @@
-import {Button} from "./Button";
+import {Modal} from "./Modale";
 
-export {Button}
+export {Modal}

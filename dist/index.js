@@ -3,10 +3,10 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Button", {
+Object.defineProperty(exports, "Modal", {
   enumerable: true,
   get: function get() {
-    return _Button.Button;
+    return _Modale.Modal;
   }
 });
-var _Button = require("./Button");
+var _Modale = require("./Modale");

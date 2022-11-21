@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from "react"
-import Modale from "./Modale"
+import Modale from "../lib/Modale"
 
 function Button() {
     const [modal, setModal] = useState(false);

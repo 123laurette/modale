@@ -7,7 +7,8 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function Modale(_ref) {
-  var closeModale = _ref.closeModale;
+  var closeModale = _ref.closeModale,
+    message = _ref.message;
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "bcgModale"
   }, /*#__PURE__*/_react.default.createElement("button", {
@@ -15,7 +16,7 @@ function Modale(_ref) {
     onClick: function onClick() {
       return closeModale(false);
     }
-  }, " X "), /*#__PURE__*/_react.default.createElement("h5", null, "The new employee has been successfully registered \uD83D\uDC4F ")));
+  }, " X "), /*#__PURE__*/_react.default.createElement("h5", null, message, "\uD83D\uDC4F ")));
 }
 ;
 var _default = Modale;

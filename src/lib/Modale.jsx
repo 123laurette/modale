@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Modale({closeModale}) {
+function Modale({closeModale, message}) {
 
     return (
         <>
             <div className='bcgModale'>
-                <button className="close"onClick={() => closeModale(false)}> X </button>
+                <button className="close" onClick={() => closeModale(false)}> X </button>
 
-                <h5>The new employee has been successfully registered &#128079; </h5>
+                <h5>{message}&#128079; </h5>
 
             </div>
             
